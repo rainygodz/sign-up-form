@@ -127,6 +127,13 @@ input:focus {
   border-radius: 4px;
   padding: 15px 55px;
   margin: 30px 100px;
+  cursor: pointer;
+
+  transition: background-color 0.35s linear;
+}
+
+.create-btn:hover {
+  background-color: #657656;
 }
 
 .log-in {
