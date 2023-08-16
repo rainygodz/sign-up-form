@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="./script.js" defer></script>
   <title>Sign-up Form</title>
 </head>
 <body>
@@ -40,7 +41,8 @@
             <label for="email">Email</label>
             <input type="email" id="email" name="email">
             <label for="password">Password</label>
-            <input type="password" id="password" name="password">
+            <input class="error" type="password" id="password" name="password">
+            <div class="password-error">*Passwords do not match</div>
           </fieldset>
           <fieldset class="right-form">
             <label for="last_name">Last Name</label>
@@ -48,7 +50,7 @@
             <label for="phone">Phone Number</label>
             <input type="text" id="phone" name="phone">
             <label for="confirm_password">Confirm Password</label>
-            <input type="password" id="confirm_password" name="confirm_password">
+            <input class="error" type="password" id="confirm_password" name="confirm_password">
           </fieldset>
         </form>
       </div>
